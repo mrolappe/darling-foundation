@@ -264,6 +264,7 @@ set(foundation_sources
 	src/NSIBPrototypingLayoutConstraint.m
 	src/NSDeprecatedKeyValueCoding.m
 	src/NSCFType.m
+	src/NSLayoutDimension.m
 )
 
 # Includes ObjC headers -> must be compiled as ObjC
