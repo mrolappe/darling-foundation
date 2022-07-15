@@ -265,6 +265,7 @@ set(foundation_sources
 	src/NSDeprecatedKeyValueCoding.m
 	src/NSCFType.m
 	src/NSLayoutDimension.m
+	src/NSScriptSuiteRegistry.m
 )
 
 # Includes ObjC headers -> must be compiled as ObjC
