@@ -266,6 +266,7 @@ set(foundation_sources
 	src/NSCFType.m
 	src/NSLayoutDimension.m
 	src/NSScriptSuiteRegistry.m
+	src/NSUserScriptTask.m
 )
 
 # Includes ObjC headers -> must be compiled as ObjC
@@ -306,4 +307,3 @@ add_darling_executable(defaults tools/defaults.m)
 target_link_libraries(defaults Foundation)
 install(TARGETS defaults DESTINATION libexec/darling/usr/bin)
 install(FILES tools/defaults.1 DESTINATION libexec/darling/usr/share/man/man1)
-
